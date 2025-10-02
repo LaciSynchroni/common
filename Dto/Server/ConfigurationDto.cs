@@ -12,4 +12,5 @@ public record ConfigurationDto
     public Uri ServerUri { get; set; } = new("wss://noemptyuri");
     public string? DiscordInvite { get; set; } = null;
     public string? ServerRules { get; set; } = null;
+    public bool? IsOAuthEnabled { get; set; } = null;
 }
