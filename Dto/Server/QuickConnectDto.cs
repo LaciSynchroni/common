@@ -12,9 +12,7 @@ namespace LaciSynchroni.Common.Dto.Server;
 public record QuickConnectDto
 {
     [Key(0)]
-    public string ServerName = string.Empty;
-    [Key(1)]
     public string ServerURI = string.Empty;
-    [Key(2)]
+    [Key(1)]
     public string SecretKey = string.Empty;
 }
