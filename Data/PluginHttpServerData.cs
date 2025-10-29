@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace LaciSynchroni.Common.Data;
-public static class PluginHTTPServerData
+public static class PluginHttpServerData
 {
-    public const string Address = "http://localhost:42069";
+    public const string Hostname = "http://localhost";
+    public const int Port = 42069;
 }
