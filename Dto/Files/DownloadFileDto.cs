@@ -9,9 +9,9 @@ public record DownloadFileDto : ITransferFileDto
     public string Hash { get; set; } = string.Empty;
     public string Url { get; set; } = string.Empty;
     public long Size { get; set; } = 0;
-    // Lightless
+    // LL
     public string? CDNDownloadUrl { get; set; } = null;
-    // PlayerSync
+    // PS
     public string? DirectDownloadUrl { get; set; } = null;
     public bool IsForbidden { get; set; } = false;
     public string ForbiddenBy { get; set; } = string.Empty;
