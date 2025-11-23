@@ -8,5 +8,5 @@ namespace LaciSynchroni.Common.Data;
 public static class PluginHttpServerData
 {
     public const string Hostname = "http://localhost";
-    public const int Port = 42069;
+    public const int Port = 27014;
 }
