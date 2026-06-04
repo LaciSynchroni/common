@@ -13,6 +13,7 @@ public record DownloadFileDto : ITransferFileDto
     public string? CDNDownloadUrl { get; set; } = null;
     // PS
     public string? DirectDownloadUrl { get; set; } = null;
+    public string? MungeKey { get; set; } = null;
     public bool IsForbidden { get; set; } = false;
     public string ForbiddenBy { get; set; } = string.Empty;
     public long RawSize { get; set; } = 0;
